@@ -2,8 +2,6 @@ import { observable } from "mobx";
 import React from "react";
 import ReactDOM from "react-dom";
 
-import "./styles.css";
-
 import { observer } from "./mobx-react";
 
 const todos = observable([
